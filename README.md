@@ -1,8 +1,8 @@
 #  Pizza Restaurant API
 
-This project is a simple RESTful API built with Flask, following the MVC architecture. It manages restaurants, pizzas, and their associations. No frontend istesting is done via Postman.
+This project is a simple RESTful API built with Flask, following the MVC architecture. It manages restaurants, pizzas, and their associations. No frontend 
 
----
+All endpoints are tested using Postman
 
 ## Getting Started
 

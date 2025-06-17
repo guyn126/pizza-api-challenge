@@ -9,12 +9,12 @@ with app.app_context():
     db.drop_all()
     db.create_all()
 
-    # Restaurants
+    
     r1 = Restaurant(name="Mario's Pizza", address="123 Main St")
     r2 = Restaurant(name="Luigi's Pizza", address="456 Side Ave")
     r3 = Restaurant(name="Kiki's Pizza", address="789 Corner Blvd")
 
-    # Pizzas
+    
     p1 = Pizza(name="Emma", ingredients="Dough, Tomato Sauce, Cheese")
     p2 = Pizza(name="Pepperoni", ingredients="Dough, Tomato Sauce, Cheese, Pepperoni")
     p3 = Pizza(name="Vegetarian", ingredients="Dough, Tomato Sauce, Cheese, Veggies")

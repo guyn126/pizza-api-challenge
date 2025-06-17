@@ -13,12 +13,12 @@ def create_app():
     db.init_app(app)
     migrate.init_app(app, db)
 
-    # Import controllers (important: à placer ici pour éviter des imports circulaires)
+    
     from .controllers.restaurant_controller import restaurant_bp
     from .controllers.pizza_controller import pizza_bp
     from .controllers.restaurant_pizza_controller import restaurant_pizza_bp
 
-    # Register blueprints
+    
     app.register_blueprint(restaurant_bp)
     app.register_blueprint(pizza_bp)
     app.register_blueprint(restaurant_pizza_bp)

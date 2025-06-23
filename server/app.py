@@ -25,6 +25,6 @@ def create_app():
 
     @app.route('/')
     def home():
-        return {'message': 'Pizza API is running 🍕'}
+        return {'message': 'Pizza API is running '}
 
     return app
